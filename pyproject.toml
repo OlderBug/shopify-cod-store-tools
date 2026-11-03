@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shopify-cod-store-tools"
+version = "0.1.0"
+description = "Practical tools for Pakistani Shopify COD stores: image colour labels, order checks, return rates, parcel classification"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
